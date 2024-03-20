@@ -1,0 +1,11 @@
+// column_1.scss
+.column-1 {
+  border: 2px solid red; // Different border color for visibility
+  flex: 1; // Take up equal space in the main container
+  display: flex;
+  flex-direction: column; // Stack the View and Console vertically
+  min-width: 300px; // Minimum width for visibility
+  height: 100vh; // Set the height to full viewport for now
+}
+
+

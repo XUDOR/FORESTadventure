@@ -1,0 +1,19 @@
+// grid.scss
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px; // Set based on your desired grid size
+  gap: 5px; // Space between grid cells
+}
+
+.grid-cell {
+  width: 45px; // Width of each cell
+  height: 45px; // Height of each cell
+  background-color: #eee; // Default cell color
+  border-radius: 50%; // Makes the cell a circle
+  cursor: pointer; // Optional: changes cursor on hover to indicate interactiveness
+}
+
+.grid-cell.active {
+  background-color: #4CAF50; // Active cell color, change as desired
+}
